@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: scroll;
+}
+th, td {
+    border: 1px solid #331464;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #E0AED0;
+    color: #331464;
+}
+.icon-cell {
+    width: 100px;
+    position: relative;
+}
+.edit-icon, .delete-icon {
+    color: #331464;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
